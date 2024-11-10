@@ -43,6 +43,11 @@
           "<all_urls>"
         ]
       }
-    ]
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "feature-flag-override@example.com"
+      }
+    }
   }
 }
