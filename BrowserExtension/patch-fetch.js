@@ -1,10 +1,10 @@
-const version = 1;
-
 (async function () {
     try {
         if (window.fetch.isPatched) {
             return;
         }
+
+        const version = 1;
 
         if (window.fetch.patchVersion && window.fetch.patchVersion < version) {
             console.warn('Old fetch patch version detected, removing old patch');
